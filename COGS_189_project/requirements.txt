@@ -1,0 +1,8 @@
+
+psychopy>=2022.1.4
+numpy
+scipy
+mne
+brainflow>=5.1.2
+pyserial
+pylsl
