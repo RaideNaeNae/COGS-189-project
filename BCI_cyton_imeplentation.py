@@ -131,7 +131,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 # work out from system args whether we are running in pilot mode
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
-_fullScr = False
+_fullScr = True
 _winSize = (1024, 768)
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
@@ -595,7 +595,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # Create photosensor dot for triggering
         from psychopy import visual
         photosensor_dot = visual.Rect(
-            win=win, units='norm', width=0.05, height=0.05, 
+            win=win, units='norm', width=0.15, height=0.15, 
             fillColor='white', lineWidth=0, pos=[0.95, -0.95]
         )
         photosensor_dot.color = [-1, -1, -1]  # Start with black
@@ -823,7 +823,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('COGS 189 song list_test.xlsx'), 
+        trialList=data.importConditions('COGS 189 song list.xlsx'), 
         seed=None, 
         isTrials=True, 
     )
