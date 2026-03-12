@@ -1,0 +1,290 @@
+23.4535 	INFO 	Loaded monitor calibration from ['2025_01_22 16:58']
+23.5529 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+23.7430 	INFO 	Using renderer 'NVIDIA GeForce GT 1030/PCIe/SSE2' for graphics
+23.7430 	INFO 	OpenGL version supported by driver is 4..
+23.7661 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002828932BCD0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002828932B610>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002828AB5C3D0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+23.7662 	EXP 	window1: backgroundImage = ''
+23.7662 	EXP 	window1: backgroundFit = 'none'
+24.1353 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+24.1353 	EXP 	window1: recordFrameIntervals = False
+24.3668 	EXP 	window1: recordFrameIntervals = True
+26.0336 	EXP 	window1: recordFrameIntervals = False
+26.0337 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+26.1346 	INFO 	keyboard.Keyboard is using ptb backend.
+26.1346 	EXP 	test1: status = STARTED
+38.2249 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([0., 0., 0.]), lineColorSpace='rgb', lineRGB=array([0, 0, 0]), lineWidth=0, name='unnamed Rect', opacity=1, ori=0.0, pos=array([ 0.95, -0.95]), size=array([0.15, 0.15]), units='norm', vertices=ndarray(...), win=Window(...))
+38.2623 	EXP 	Created cross2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.4021 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976569
+38.4358 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Speakers/Headphones (Realtek(R) Audio)
+38.7792 	INFO 	Created stream for speaker device: Speakers/Headphones (Realtek(R) Audio) (2.0)
+38.7803 	EXP 	white_noise: sampleRate = 48000
+38.7803 	EXP 	white_noise: channels = None
+38.7882 	EXP 	Sound white_noise set volume 1.000
+38.7898 	EXP 	Created cross1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+38.8045 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Speakers/Headphones (Realtek(R) Audio)
+38.8098 	INFO 	Created stream for speaker device: Speakers/Headphones (Realtek(R) Audio) (2.0)
+38.8109 	EXP 	song: sampleRate = 48000
+38.8109 	EXP 	song: channels = None
+38.8177 	EXP 	Sound song set volume 0.400
+0.0095 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+0.0095 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+0.0095 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+0.0095 	EXP 	unnamed Rect: color = [-1, -1, -1]
+0.0095 	EXP 	loading: autoLog = True
+0.0263 	EXP 	loading: autoDraw = True
+10.0580 	EXP 	Imported COGS 189 song list.xlsx as conditions, 10 conditions, 2 params
+10.0582 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'song_file': 'audio/edm2.mp3', 'trigger_value': 2.0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+10.0588 	EXP 	white_noise: sampleRate = 48000
+10.1100 	EXP 	Sound white_noise reached end of file
+10.1103 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+10.1270 	EXP 	loading: autoDraw = False
+10.1270 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+10.1270 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+10.1270 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+10.1270 	EXP 	unnamed Rect: color = [1, 1, 1]
+10.1270 	EXP 	unnamed Rect: autoDraw = True
+10.1270 	EXP 	cross2: autoDraw = True
+25.0260 	EXP 	Sound white_noise paused
+25.0402 	EXP 	song: sampleRate = 48000
+25.0959 	EXP 	Sound song reached end of file
+25.1120 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+25.1120 	EXP 	cross2: autoDraw = False
+25.1120 	EXP 	unnamed Rect: autoDraw = False
+25.1120 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+25.1120 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+25.1120 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+25.1120 	EXP 	unnamed Rect: color = [-1, -1, -1]
+25.1120 	EXP 	unnamed Rect: autoDraw = True
+25.1120 	EXP 	cross1: autoDraw = True
+55.0247 	EXP 	Sound song paused
+55.0306 	EXP 	cross1: autoDraw = False
+55.0306 	EXP 	unnamed Rect: autoDraw = False
+55.4593 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'song_file': 'audio/classical2.mp3', 'trigger_value': 1.0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+55.4598 	EXP 	white_noise: sampleRate = 48000
+55.5113 	EXP 	Sound white_noise reached end of file
+55.5139 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+55.5305 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+55.5305 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+55.5305 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+55.5305 	EXP 	unnamed Rect: color = [1, 1, 1]
+55.5305 	EXP 	unnamed Rect: autoDraw = True
+55.5305 	EXP 	cross2: autoDraw = True
+70.0291 	EXP 	Sound white_noise paused
+70.0432 	EXP 	song: sampleRate = 48000
+70.0969 	EXP 	Sound song reached end of file
+70.0982 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+70.1152 	EXP 	cross2: autoDraw = False
+70.1152 	EXP 	unnamed Rect: autoDraw = False
+70.1152 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+70.1152 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+70.1152 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+70.1152 	EXP 	unnamed Rect: color = [-1, -1, -1]
+70.1152 	EXP 	unnamed Rect: autoDraw = True
+70.1152 	EXP 	cross1: autoDraw = True
+100.0184 	EXP 	Sound song paused
+100.0337 	EXP 	cross1: autoDraw = False
+100.0337 	EXP 	unnamed Rect: autoDraw = False
+100.1291 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'song_file': 'audio/edm4.mp3', 'trigger_value': 2.0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+100.1296 	EXP 	white_noise: sampleRate = 48000
+100.1824 	EXP 	Sound white_noise reached end of file
+100.1837 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+100.2007 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+100.2007 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+100.2007 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+100.2007 	EXP 	unnamed Rect: color = [1, 1, 1]
+100.2007 	EXP 	unnamed Rect: autoDraw = True
+100.2007 	EXP 	cross2: autoDraw = True
+115.0157 	EXP 	Sound white_noise paused
+115.0588 	EXP 	song: sampleRate = 48000
+115.1188 	EXP 	Sound song reached end of file
+115.1347 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+115.1351 	EXP 	cross2: autoDraw = False
+115.1351 	EXP 	unnamed Rect: autoDraw = False
+115.1351 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+115.1351 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+115.1351 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+115.1351 	EXP 	unnamed Rect: color = [-1, -1, -1]
+115.1351 	EXP 	unnamed Rect: autoDraw = True
+115.1351 	EXP 	cross1: autoDraw = True
+145.0141 	EXP 	Sound song paused
+145.0206 	EXP 	cross1: autoDraw = False
+145.0206 	EXP 	unnamed Rect: autoDraw = False
+145.1534 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'song_file': 'audio/classical1.mp3', 'trigger_value': 1.0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+145.1539 	EXP 	white_noise: sampleRate = 48000
+145.2066 	EXP 	Sound white_noise reached end of file
+145.2206 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+145.2203 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+145.2203 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+145.2203 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+145.2203 	EXP 	unnamed Rect: color = [1, 1, 1]
+145.2203 	EXP 	unnamed Rect: autoDraw = True
+145.2203 	EXP 	cross2: autoDraw = True
+160.0166 	EXP 	Sound white_noise paused
+160.0584 	EXP 	song: sampleRate = 48000
+160.1172 	EXP 	Sound song reached end of file
+160.1213 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+160.1384 	EXP 	cross2: autoDraw = False
+160.1384 	EXP 	unnamed Rect: autoDraw = False
+160.1384 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+160.1384 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+160.1384 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+160.1384 	EXP 	unnamed Rect: color = [-1, -1, -1]
+160.1384 	EXP 	unnamed Rect: autoDraw = True
+160.1384 	EXP 	cross1: autoDraw = True
+190.0258 	EXP 	Sound song paused
+190.0405 	EXP 	cross1: autoDraw = False
+190.0405 	EXP 	unnamed Rect: autoDraw = False
+190.2585 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'song_file': 'audio/edm1.mp3', 'trigger_value': 2.0, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+190.2591 	EXP 	white_noise: sampleRate = 48000
+190.3133 	EXP 	Sound white_noise reached end of file
+190.3239 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+190.3235 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+190.3235 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+190.3235 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+190.3235 	EXP 	unnamed Rect: color = [1, 1, 1]
+190.3235 	EXP 	unnamed Rect: autoDraw = True
+190.3235 	EXP 	cross2: autoDraw = True
+205.0252 	EXP 	Sound white_noise paused
+205.0687 	EXP 	song: sampleRate = 48000
+205.1309 	EXP 	Sound song reached end of file
+205.1412 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+205.1423 	EXP 	cross2: autoDraw = False
+205.1423 	EXP 	unnamed Rect: autoDraw = False
+205.1423 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+205.1423 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+205.1423 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+205.1423 	EXP 	unnamed Rect: color = [-1, -1, -1]
+205.1423 	EXP 	unnamed Rect: autoDraw = True
+205.1423 	EXP 	cross1: autoDraw = True
+235.0273 	EXP 	Sound song paused
+235.0433 	EXP 	cross1: autoDraw = False
+235.0433 	EXP 	unnamed Rect: autoDraw = False
+235.3912 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'song_file': 'audio/classical4.mp3', 'trigger_value': 1.0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+235.3918 	EXP 	white_noise: sampleRate = 48000
+235.4446 	EXP 	Sound white_noise reached end of file
+235.4600 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+235.4601 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+235.4601 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+235.4601 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+235.4601 	EXP 	unnamed Rect: color = [1, 1, 1]
+235.4601 	EXP 	unnamed Rect: autoDraw = True
+235.4601 	EXP 	cross2: autoDraw = True
+250.0268 	EXP 	Sound white_noise paused
+250.0708 	EXP 	song: sampleRate = 48000
+250.1297 	EXP 	Sound song reached end of file
+250.1445 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+250.1444 	EXP 	cross2: autoDraw = False
+250.1444 	EXP 	unnamed Rect: autoDraw = False
+250.1444 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+250.1444 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+250.1444 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+250.1444 	EXP 	unnamed Rect: color = [-1, -1, -1]
+250.1444 	EXP 	unnamed Rect: autoDraw = True
+250.1444 	EXP 	cross1: autoDraw = True
+280.0263 	EXP 	Sound song paused
+280.0466 	EXP 	cross1: autoDraw = False
+280.0466 	EXP 	unnamed Rect: autoDraw = False
+280.4207 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'song_file': 'audio/edm3.mp3', 'trigger_value': 2.0, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+280.4212 	EXP 	white_noise: sampleRate = 48000
+280.4739 	EXP 	Sound white_noise reached end of file
+280.4799 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+280.4799 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+280.4799 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+280.4799 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+280.4799 	EXP 	unnamed Rect: color = [1, 1, 1]
+280.4799 	EXP 	unnamed Rect: autoDraw = True
+280.4799 	EXP 	cross2: autoDraw = True
+295.0264 	EXP 	Sound white_noise paused
+295.0698 	EXP 	song: sampleRate = 48000
+295.1271 	EXP 	Sound song reached end of file
+295.1310 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+295.1481 	EXP 	cross2: autoDraw = False
+295.1481 	EXP 	unnamed Rect: autoDraw = False
+295.1481 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+295.1481 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+295.1481 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+295.1481 	EXP 	unnamed Rect: color = [-1, -1, -1]
+295.1481 	EXP 	unnamed Rect: autoDraw = True
+295.1481 	EXP 	cross1: autoDraw = True
+325.0270 	EXP 	Sound song paused
+325.0332 	EXP 	cross1: autoDraw = False
+325.0332 	EXP 	unnamed Rect: autoDraw = False
+325.4716 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'song_file': 'audio/classical5.mp3', 'trigger_value': 1.0, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+325.4721 	EXP 	white_noise: sampleRate = 48000
+325.5242 	EXP 	Sound white_noise reached end of file
+325.5332 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+325.5332 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+325.5332 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+325.5332 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+325.5332 	EXP 	unnamed Rect: color = [1, 1, 1]
+325.5332 	EXP 	unnamed Rect: autoDraw = True
+325.5332 	EXP 	cross2: autoDraw = True
+340.0178 	EXP 	Sound white_noise paused
+340.0316 	EXP 	song: sampleRate = 48000
+340.0907 	EXP 	Sound song reached end of file
+340.1009 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+340.1009 	EXP 	cross2: autoDraw = False
+340.1009 	EXP 	unnamed Rect: autoDraw = False
+340.1009 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+340.1009 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+340.1009 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+340.1009 	EXP 	unnamed Rect: color = [-1, -1, -1]
+340.1009 	EXP 	unnamed Rect: autoDraw = True
+340.1009 	EXP 	cross1: autoDraw = True
+370.0227 	EXP 	Sound song paused
+370.0364 	EXP 	cross1: autoDraw = False
+370.0364 	EXP 	unnamed Rect: autoDraw = False
+370.6544 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'song_file': 'audio/edm5.mp3', 'trigger_value': 2.0, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+370.6550 	EXP 	white_noise: sampleRate = 48000
+370.7078 	EXP 	Sound white_noise reached end of file
+370.7197 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+370.7197 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+370.7197 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+370.7197 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+370.7197 	EXP 	unnamed Rect: color = [1, 1, 1]
+370.7197 	EXP 	unnamed Rect: autoDraw = True
+370.7197 	EXP 	cross2: autoDraw = True
+385.0238 	EXP 	Sound white_noise paused
+385.0703 	EXP 	song: sampleRate = 48000
+385.1306 	EXP 	Sound song reached end of file
+385.1374 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+385.1375 	EXP 	cross2: autoDraw = False
+385.1375 	EXP 	unnamed Rect: autoDraw = False
+385.1375 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+385.1375 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+385.1375 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+385.1375 	EXP 	unnamed Rect: color = [-1, -1, -1]
+385.1375 	EXP 	unnamed Rect: autoDraw = True
+385.1375 	EXP 	cross1: autoDraw = True
+415.0242 	EXP 	Sound song paused
+415.0396 	EXP 	cross1: autoDraw = False
+415.0396 	EXP 	unnamed Rect: autoDraw = False
+415.6141 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'song_file': 'audio/classical3.mp3', 'trigger_value': 1.0, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+415.6147 	EXP 	white_noise: sampleRate = 48000
+415.6668 	EXP 	Sound white_noise reached end of file
+415.6729 	EXP 	Playing sound white_noise on speaker Speakers/Headphones (Realtek(R) Audio)
+415.6730 	EXP 	unnamed Rect: foreColor = [1, 1, 1]
+415.6730 	EXP 	unnamed Rect: fillColor = [1, 1, 1]
+415.6730 	EXP 	unnamed Rect: borderColor = [1, 1, 1]
+415.6730 	EXP 	unnamed Rect: color = [1, 1, 1]
+415.6730 	EXP 	unnamed Rect: autoDraw = True
+415.6730 	EXP 	cross2: autoDraw = True
+430.0257 	EXP 	Sound white_noise paused
+430.0691 	EXP 	song: sampleRate = 48000
+430.1303 	EXP 	Sound song reached end of file
+430.1407 	EXP 	Playing sound song on speaker Speakers/Headphones (Realtek(R) Audio)
+430.1407 	EXP 	cross2: autoDraw = False
+430.1407 	EXP 	unnamed Rect: autoDraw = False
+430.1407 	EXP 	unnamed Rect: foreColor = [-1, -1, -1]
+430.1407 	EXP 	unnamed Rect: fillColor = [-1, -1, -1]
+430.1407 	EXP 	unnamed Rect: borderColor = [-1, -1, -1]
+430.1407 	EXP 	unnamed Rect: color = [-1, -1, -1]
+430.1407 	EXP 	unnamed Rect: autoDraw = True
+430.1407 	EXP 	cross1: autoDraw = True
+460.0242 	EXP 	Sound song paused
+460.0435 	EXP 	cross1: autoDraw = False
+460.0435 	EXP 	unnamed Rect: autoDraw = False
+460.8096 	EXP 	test1: status = STOPPED
+460.8438 	INFO 	saved data to 'C:\\Users\\tfei\\Desktop\\COGS-189-project-main\\COGS-189-project-main\\data\\krishna_real_test_test1_2026-03-10_12h41.29.790.csv'
+460.8453 	INFO 	saved data to C:\Users\tfei\Desktop\COGS-189-project-main\COGS-189-project-main\data\krishna_real_test_test1_2026-03-10_12h41.29.790.psydat
+461.1769 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
