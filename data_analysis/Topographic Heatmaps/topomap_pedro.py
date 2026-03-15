@@ -31,7 +31,7 @@ montage = mne.channels.make_standard_montage('standard_1020')
 epochs.set_montage(montage)
 
 # Filter and compute Alpha (8-12 Hz)
-epochs.filter(l_freq=1.0, h_freq=40.0)
+epochs.filter(l_freq=1.0, h_freq=59.0)
 psds = epochs.compute_psd(fmin=8, fmax=12)
 psd_data = psds.get_data() 
 
@@ -54,7 +54,7 @@ ax2.set_title("EDM: Alpha Power (8-12 Hz)", fontsize=14, pad=20)
 
 # Add a shared colorbar
 cax = fig.add_axes([0.92, 0.2, 0.02, 0.6])
-fig.colorbar(ax2.images[0], cax=cax, label='Power ($\mu V^2/Hz$)')
+fig.colorbar(ax2.images[0], cax=cax, label='Power')
 
 plt.suptitle("Spatial Comparison of Music Genre Effects (Pedro)", fontsize=18, fontweight='bold')
 plt.show()

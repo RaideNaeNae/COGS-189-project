@@ -1,8 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
-# UPDATE THIS PATH to the newest folder in your directory!
-file_path = r"data\cyton_participant-angelo_real_test\ses-001\2026-03-09_15h28.35.822\eeg_trials.npy" 
+
+# Select particpant specific data
+participant_name = "krishna" 
+
+script_dir = Path(__file__).parent.resolve()
+data_dir = script_dir / "data"
+matching_folders = [f for f in data_dir.glob(f"*{participant_name}*") if f.is_dir()]
+target_folder = matching_folders[0]
+target_file = list(target_folder.rglob("eeg_raw.npy"))
+file_path = list(target_folder.rglob("eeg_raw.npy"))[0]
 
 # Load the data
 eeg_data = np.load(file_path, allow_pickle=True)

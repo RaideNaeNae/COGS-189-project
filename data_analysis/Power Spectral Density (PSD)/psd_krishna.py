@@ -1,5 +1,5 @@
 import numpy as np
-import mne
+import mne 
 import matplotlib.pyplot as plt
 import pandas as pd
 from pathlib import Path
@@ -20,25 +20,27 @@ sfreq = 250
 ch_names = ['EEG1', 'EEG2', 'EEG3', 'EEG4', 'EEG5', 'EEG6', 'EEG7', 'EEG8']
 info = mne.create_info(ch_names=ch_names, sfreq=sfreq, ch_types=['eeg']*8)
 
-
-sfreq = 250
-ch_names = ['EEG1', 'EEG2', 'EEG3', 'EEG4', 'EEG5', 'EEG6', 'EEG7', 'EEG8']
-info = mne.create_info(ch_names=ch_names, sfreq=sfreq, ch_types=['eeg']*8)
-
 # 1 = Classical, 2 = EDM
 trigger_order = np.array([2, 1, 2, 1, 2, 1, 2, 1, 2, 1]) 
 
 # Create MNE Epochs
 epochs = mne.EpochsArray(epochs_data, info)
-epochs.filter(l_freq=1.0, h_freq=40.0)
+epochs.filter(l_freq=1.0, h_freq=59.0)
 
-# Calculate PSD
-psds = epochs.compute_psd(method='welch', fmin=1, fmax=40)
+# Calculate PSD with 0.5s windows and 50% overlap
+psds = epochs.compute_psd(
+    method='welch', 
+    n_fft=256,        # Keep n_fft at 256 for better frequency resolution
+    n_per_seg=125,    # 0.5 seconds
+    n_overlap=62,     # 0.25 seconds
+    fmin=8, 
+    fmax=30
+)
 psd_data = psds.get_data() # (Trials, Channels, Freqs)
 freqs = psds.freqs
 
 # Define Bands
-bands = {'Delta': (1, 4), 'Theta': (4, 8), 'Alpha': (8, 12), 'Beta': (13, 30)}
+bands = {'Alpha': (8, 12), 'Beta': (13, 30)}
 
 # Group by Genre and Calculate Means
 results = []
@@ -59,11 +61,11 @@ df_results = pd.DataFrame(results)
 pivot_df = df_results.pivot(index='Band', columns='Genre', values='Power')
 
 # Reorder bands for the x-axis
-pivot_df = pivot_df.reindex(['Delta', 'Theta', 'Alpha', 'Beta'])
+pivot_df = pivot_df.reindex(['Alpha', 'Beta'])
 
-ax = pivot_df.plot(kind='bar', figsize=(10, 6), color=['#1f77b4', '#ff7f0e'])
-plt.title("Brainwave Power Comparison: Classical vs. EDM (Krishna)", fontsize=14)
-plt.ylabel("Mean Power (uV^2/Hz)")
+ax = pivot_df.plot(kind='bar', figsize=(8, 6), color=['#1f77b4', '#ff7f0e'])
+plt.title("PSD: Classical vs. EDM (Krishna)", fontsize=14)
+plt.ylabel("Mean Power")
 plt.xlabel("Frequency Band")
 plt.xticks(rotation=0)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
